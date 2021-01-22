@@ -304,16 +304,24 @@ export : define DesignParameters : object
 	parenOutside               0.2
 	parenInside                0.9
 	parenCurliness             0.7
-	parenOvershoot             0.0375
+	parenOvershoot             0.02
 	# []
 	bracketOutside             0.1
 	bracketInside              0.95
+
 	# {}
+	# braceOutside               0.05
+	# braceInside                0.95
+	# braceCurlyM1               0.6
+	# braceCurlyM2               0.45
+	# braceOvershoot             0.02
+
 	braceOutside               0.05
 	braceInside                0.95
-	braceCurlyM1               0.6
-	braceCurlyM2               0.45
+	braceCurlyM1               0.7
+	braceCurlyM2               0.4
 	braceOvershoot             0.02
+
 	# Crosdedness
 	lllcrowdedness             (3 + 1 / 3)
 	# Bar position
