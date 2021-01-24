@@ -67,8 +67,8 @@
     italic = "italic"
 
     [buildPlans.iosevka-ot-dz.metric-override]
-    leading = 1125
-    xheight = 540
+    leading = 1120
+    xheight = 550
 
     [buildPlans.iosevka-ot-dz.metric-override.multiplies]
     sb = 1.125
@@ -142,8 +142,8 @@
     italic = "italic"
 
     [buildPlans.iosevka-ot-dz-mono.metric-override]
-    leading = 1125
-    xheight = 540
+    leading = 1120
+    xheight = 550
 
     [buildPlans.iosevka-ot-dz-mono.metric-override.multiplies]
     sb = 1.125
@@ -219,8 +219,8 @@
     italic = "italic"
 
     [buildPlans.iosevka-ot-dz-term-lig.metric-override]
-    leading = 1125
-    xheight = 540
+    leading = 1120
+    xheight = 550
 
     [buildPlans.iosevka-ot-dz-term-lig.metric-override.multiplies]
     sb = 1.125
