@@ -1,0 +1,226 @@
+[buildPlans.iosevka-ot-dz]
+    family = "Iosevka OT DZ"
+    spacing = "normal"
+    serifs = "sans"
+    no-ligation = true
+
+    [buildPlans.iosevka-ot-dz.variants]
+    inherits = "ss20"
+
+    [buildPlans.iosevka-ot-dz.variants.design]
+    capital-b = "more-asymmetric"
+    capital-g = "toothless-corner"
+    capital-i = "short-serifed"
+    capital-j = "serifed"
+    capital-m = "hanging"
+    capital-q = "straight"
+    a = "doublestorey"
+    b = "toothed"
+	d = "toothed"
+    f = "flat-hook"
+    g = "doublestorey"
+    i = "serifed"
+    j = "flat-hook-serifed"
+    l = "serifed-flat-tailed"
+    n = "straight"
+    p = "eared"
+    q = "straight"
+    t = "flat-hook"
+    # zero = "long-dotted"
+    zero = "dotted"
+    one = "nobase"
+    three = "twoarcs"
+    four = "closed"
+    six = "closed-contour"
+    seven = "noserif"
+    eight = "two-circles"
+    nine = "closed-contour"
+    asterisk = "hexhigh"
+    underscore = "high"
+    paren = "large-contour"
+    brace = "curly"
+    number-sign = "upright-open"
+    ampersand = "upper-open"
+    at = "threefold"
+    dollar = "open"
+    percent = "dots"
+
+    [buildPlans.iosevka-ot-dz.variants.italic]
+    capital-q = "straight"
+    a = "doublestorey-toothless-corner"
+	b = "toothless-corner"
+	d = "toothless-corner"
+    e = "rounded"
+    f = "flat-hook-extended"
+    i = "serifed"
+    j = "flat-hook-serifed"
+    k = "curly"
+    m = "earless-rounded-double-arch-tailed"
+    n = "earless-corner-tailed"
+    p = "earless-corner"
+    q = "earless-corner"
+    u = "tailed"
+    y = "curly-turn"
+
+    [buildPlans.iosevka-ot-dz.slopes]
+    upright = "normal"
+    italic = "italic"
+
+    [buildPlans.iosevka-ot-dz.metric-override]
+    leading = 1125
+    xheight = 540
+
+    [buildPlans.iosevka-ot-dz.metric-override.multiplies]
+    sb = 1.125
+
+[buildPlans.iosevka-ot-dz-mono]
+    family = "Iosevka OT DZ Mono"
+    spacing = "fixed"
+    serifs = "sans"
+    no-ligation = true
+
+    [buildPlans.iosevka-ot-dz-mono.variants]
+    inherits = "ss20"
+
+    [buildPlans.iosevka-ot-dz-mono.variants.design]
+    capital-b = "more-asymmetric"
+    capital-g = "toothless-corner"
+    capital-i = "short-serifed"
+    capital-j = "serifed"
+    capital-m = "hanging"
+    capital-q = "straight"
+    a = "doublestorey"
+    b = "toothed"
+	d = "toothed"
+    f = "flat-hook"
+    g = "doublestorey"
+    i = "serifed"
+    j = "flat-hook-serifed"
+    l = "serifed-flat-tailed"
+    n = "straight"
+    p = "eared"
+    q = "straight"
+    t = "flat-hook"
+    # zero = "long-dotted"
+    zero = "dotted"
+    one = "nobase"
+    three = "twoarcs"
+    four = "closed"
+    six = "closed-contour"
+    seven = "noserif"
+    eight = "two-circles"
+    nine = "closed-contour"
+    asterisk = "hexhigh"
+    underscore = "high"
+    paren = "large-contour"
+    brace = "curly"
+    number-sign = "upright-open"
+    ampersand = "upper-open"
+    at = "threefold"
+    dollar = "open"
+    percent = "dots"
+
+    [buildPlans.iosevka-ot-dz-mono.variants.italic]
+    capital-q = "straight"
+    a = "doublestorey-toothless-corner"
+    b = "toothless-corner"
+	d = "toothless-corner"
+    e = "rounded"
+    f = "flat-hook-extended"
+    i = "serifed"
+    j = "flat-hook-serifed"
+    k = "curly"
+    m = "earless-rounded-double-arch-tailed"
+    n = "earless-corner-tailed"
+    p = "earless-corner"
+    q = "earless-corner"
+    u = "tailed"
+    y = "curly-turn"
+
+    [buildPlans.iosevka-ot-dz-mono.slopes]
+    upright = "normal"
+    italic = "italic"
+
+    [buildPlans.iosevka-ot-dz-mono.metric-override]
+    leading = 1125
+    xheight = 540
+
+    [buildPlans.iosevka-ot-dz-mono.metric-override.multiplies]
+    sb = 1.125
+
+[buildPlans.iosevka-ot-dz-term-lig]
+    family = "Iosevka OT DZ TermLig"
+    spacing = "term"
+    serifs = "sans"
+
+    [buildPlans.iosevka-ot-dz-term-lig.ligations]
+    inherits = "dlig"
+
+    [buildPlans.iosevka-ot-dz-term-lig.variants]
+    inherits = "ss20"
+
+    [buildPlans.iosevka-ot-dz-term-lig.variants.design]
+    capital-b = "more-asymmetric"
+    capital-g = "toothless-corner"
+    capital-i = "short-serifed"
+    capital-j = "serifed"
+    capital-m = "hanging"
+    capital-q = "straight"
+    a = "doublestorey"
+    b = "toothed"
+	d = "toothed"
+    f = "flat-hook"
+    g = "doublestorey"
+    i = "serifed"
+    j = "flat-hook-serifed"
+    l = "serifed-flat-tailed"
+    n = "straight"
+    p = "eared"
+    q = "straight"
+    t = "flat-hook"
+    # zero = "long-dotted"
+    zero = "dotted"
+    one = "nobase"
+    three = "twoarcs"
+    four = "closed"
+    six = "closed-contour"
+    seven = "noserif"
+    eight = "two-circles"
+    nine = "closed-contour"
+    asterisk = "hexhigh"
+    underscore = "high"
+    paren = "large-contour"
+    brace = "curly"
+    number-sign = "upright-open"
+    ampersand = "upper-open"
+    at = "threefold"
+    dollar = "open"
+    percent = "dots"
+
+    [buildPlans.iosevka-ot-dz-term-lig.variants.italic]
+    capital-q = "straight"
+    a = "doublestorey-toothless-corner"
+    b = "toothless-corner"
+	d = "toothless-corner"
+    e = "rounded"
+    f = "flat-hook-extended"
+    i = "serifed"
+    j = "flat-hook-serifed"
+    k = "curly"
+    m = "earless-rounded-double-arch-tailed"
+    n = "earless-corner-tailed"
+    p = "earless-corner"
+    q = "earless-corner"
+    u = "tailed"
+    y = "curly-turn"
+
+    [buildPlans.iosevka-ot-dz-term-lig.slopes]
+    upright = "normal"
+    italic = "italic"
+
+    [buildPlans.iosevka-ot-dz-term-lig.metric-override]
+    leading = 1125
+    xheight = 540
+
+    [buildPlans.iosevka-ot-dz-term-lig.metric-override.multiplies]
+    sb = 1.125
