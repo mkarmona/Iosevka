@@ -123,7 +123,7 @@
     at = "threefold"
     dollar = "open"
     percent = "dots"
-    zero = "slashed-oval"
+    zero = "unslashed-oval"
     question = "corner-flat-hooked"
 
     [buildPlans.iosevka-ot-dz-mono.variants.italic]
@@ -203,7 +203,7 @@
     at = "threefold"
     dollar = "open"
     percent = "dots"
-    zero = "slashed-oval"
+    zero = "unslashed-oval"
     question = "corner-flat-hooked"
 
     [buildPlans.iosevka-ot-dz-term-lig.variants.italic]
