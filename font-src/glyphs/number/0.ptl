@@ -65,8 +65,8 @@ glyph-block Digits-Zero : begin
 
 	define [ZeroOvalShapeSlash top] : begin
 		local fine : 0.33 * OverlayStroke
-		local leftInner : (SB + HVContrast * Stroke * 15) / 8
-		local rrInner : (RightSB + HVContrast * Stroke * 15) / 8
+		local leftInner : Math.max ((RightSB + HVContrast * Stroke * 15) / 8) (Width / 3)
+		local rrInner : Math.min (Width / 2) leftInner
 		local rrEnd : Width - rrInner
 		return : union
 			ZeroOvalShape top 0 SB RightSB
