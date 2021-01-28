@@ -63,6 +63,17 @@ glyph-block Digits-Zero : begin
 		arcvh
 		close
 
+	define [ZeroOvalShapeSlash top] : begin
+		local fine : 0.33 * OverlayStroke
+		local leftInner : (SB + HVContrast * Stroke * 15) / 8
+		local rrInner : (RightSB + HVContrast * Stroke * 15) / 8
+		local rrEnd : Width - rrInner
+		return : union
+			ZeroOvalShape top 0 SB RightSB
+			dispiro
+				flat rrInner (top * 6 / 10) [widths fine fine]
+				curl rrEnd (top * 4 / 10)
+
 	create-glyph 'zero.lnum.unslashed' : glyph-proc
 		include : MarkSet.capital
 		include : OShape CAP 0 SB RightSB
@@ -70,6 +81,10 @@ glyph-block Digits-Zero : begin
 	create-glyph 'zero.lnum.unslashedOval' : glyph-proc
 		include : MarkSet.capital
 		include : ZeroOvalShape CAP
+
+	create-glyph 'zero.lnum.slashedOval' : glyph-proc
+		include : MarkSet.capital
+		include : ZeroOvalShapeSlash CAP
 
 	create-glyph 'zero.lnum.slashed' : glyph-proc
 		include : MarkSet.capital
@@ -98,6 +113,10 @@ glyph-block Digits-Zero : begin
 	create-glyph 'zero.onum.unslashedOval' : glyph-proc
 		include : OnumMarks.e
 		include : ZeroOvalShape OnumHeight
+
+	create-glyph 'zero.onum.slashedOval' : glyph-proc
+		include : OnumMarks.e
+		include : ZeroOvalShapeSlash OnumHeight
 
 	create-glyph 'zero.onum.slashed' : glyph-proc
 		include : OnumMarks.e

@@ -2376,7 +2376,10 @@ rank = 6
 description = 'O-like `0` but more round'
 selector.zero = 'unslashedOval'
 
-
+[prime.zero.variants.slashed-oval]
+rank = 6
+description = 'O-like `0` but more round and slashed'
+selector.zero = 'slashedOval'
 
 [prime.one]
 sampler = '1'

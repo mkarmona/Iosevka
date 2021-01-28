@@ -8,7 +8,9 @@
     inherits = "ss20"
 
     [buildPlans.iosevka-ot-dz.variants.design]
-    capital-b = "more-asymmetric"
+    capital-b = "more-asymmetric-unilateral-motion-serifed"
+    capital-d = "standard-unilateral-motion-serifed"
+    # capital-b = "more-asymmetric"
     capital-g = "toothless-corner-hooked"
     capital-i = "short-serifed"
     capital-j = "serifed"
@@ -43,7 +45,7 @@
     at = "threefold"
     dollar = "open"
     percent = "dots"
-    zero = "unslashed-oval"
+    zero = "slashed-oval"
     question = "corner-flat-hooked"
 
     [buildPlans.iosevka-ot-dz.variants.italic]
@@ -84,7 +86,9 @@
     inherits = "ss20"
 
     [buildPlans.iosevka-ot-dz-mono.variants.design]
-    capital-b = "more-asymmetric"
+    capital-b = "more-asymmetric-unilateral-motion-serifed"
+    capital-d = "standard-unilateral-motion-serifed"
+    # capital-b = "more-asymmetric"
     capital-g = "toothless-corner-hooked"
     capital-i = "short-serifed"
     capital-j = "serifed"
@@ -119,7 +123,7 @@
     at = "threefold"
     dollar = "open"
     percent = "dots"
-    zero = "unslashed-oval"
+    zero = "slashed-oval"
     question = "corner-flat-hooked"
 
     [buildPlans.iosevka-ot-dz-mono.variants.italic]
@@ -162,7 +166,9 @@
     inherits = "ss20"
 
     [buildPlans.iosevka-ot-dz-term-lig.variants.design]
-    capital-b = "more-asymmetric"
+    capital-b = "more-asymmetric-unilateral-motion-serifed"
+    capital-d = "standard-unilateral-motion-serifed"
+    # capital-b = "more-asymmetric"
     capital-g = "toothless-corner-hooked"
     capital-i = "short-serifed"
     capital-j = "serifed"
@@ -197,7 +203,7 @@
     at = "threefold"
     dollar = "open"
     percent = "dots"
-    zero = "unslashed-oval"
+    zero = "slashed-oval"
     question = "corner-flat-hooked"
 
     [buildPlans.iosevka-ot-dz-term-lig.variants.italic]
