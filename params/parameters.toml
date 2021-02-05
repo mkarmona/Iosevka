@@ -30,7 +30,8 @@ arrowHeight = 1.50 # Height of arrows
 slopeAngle = 0     # slope angle, in degrees.
 derivedSlopeAngle = 10 # Slope angle of derived letters requiring italics
 
-accent = 155       # Height of accent marks.
+# accent = 155       # Height of accent marks.
+accent = 125       # Height of accent marks.
 accentx = 200      # Width of accent marks.
 overshoot = -8     # Vertical overshoot for arcs.
 overshootx = -8    # Horizontal overshoot for arcs.
