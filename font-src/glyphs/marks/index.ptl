@@ -25,12 +25,12 @@ glyph-block Marks : begin
 
 	glyph-block-export aboveMarkTop aboveMarkBot aboveMarkMid
 	local aboveMarkTop (XH + Accent * 1.38)
-	local aboveMarkBot (XH + Accent * 0.35)
+	local aboveMarkBot (XH + Accent * 0.43)
 	local aboveMarkMid [mix aboveMarkBot aboveMarkTop 0.5]
 
 	glyph-block-export belowMarkBot belowMarkTop belowMarkMid
 	local belowMarkBot (0 - Accent * 1.38)
-	local belowMarkTop (0 - Accent * 0.35)
+	local belowMarkTop (0 - Accent * 0.43)
 	local belowMarkMid [mix belowMarkBot belowMarkTop 0.5]
 
 	local commaOvershoot  : O * [linreg 16 0 90 (-1) (markHalfStroke * 2)]

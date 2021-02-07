@@ -18,7 +18,8 @@ winMetricAscenderPad  = 0 # Padding of Win ascnder metrics to avoid clipping. Se
 winMetricDescenderPad = 0 # Padding of Win descender metrics to avoid clipping. See #343
 
 symbolMid = 340    # Center of parens, maths, geometrics...
-parenSize = 966    # Size of parens, brackets, braces, slashes, etc.
+# parenSize = 966    # Size of parens, brackets, braces, slashes, etc.
+parenSize = 960    # Size of parens, brackets, braces, slashes, etc.
 operSize = 0.80    # Size of mathematical operators (cups, etc.)
 tackSize = 0.80    # Size of logical operators (tacks, etc.)
 bgopSize = 1.10    # Size of "taller" mathematical operators
@@ -29,7 +30,8 @@ arrowHeight = 1.50 # Height of arrows
 slopeAngle = 0     # slope angle, in degrees.
 derivedSlopeAngle = 10 # Slope angle of derived letters requiring italics
 
-accent = 155       # Height of accent marks.
+# accent = 155       # Height of accent marks.
+accent = 125       # Height of accent marks.
 accentx = 200      # Width of accent marks.
 overshoot = -8     # Vertical overshoot for arcs.
 overshootx = -8    # Horizontal overshoot for arcs.
