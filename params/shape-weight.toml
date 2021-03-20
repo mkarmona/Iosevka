@@ -4,7 +4,8 @@ contrast = 1.11    # Stroke width contrast
 sb = 60            # Primary sidebearings
 essx = 1.12        # Proportion of widen of center of "S"
 dotsize = 125      # Size of dots
-periodsize = 140   # Size of period
+# periodsize = 140   # Size of period
+periodsize = 170   # Size of period
 
 jut = 85           # Length of slab serif
 refJut = 85        # Reference JUT, used in `m`
@@ -42,7 +43,8 @@ contrast = 1.08
 sb = 72
 essx = 1.12
 dotsize = 53
-periodsize = 55
+periodsize = 85
+# periodsize = 55
 
 jut = 70
 vjut = 145
@@ -86,7 +88,8 @@ contrast = 1.20
 sb = 42
 essx = 1.05
 dotsize = 180
-periodsize = 200
+# periodsize = 200
+periodsize = 220
 
 jut = 95
 vjut = 200
